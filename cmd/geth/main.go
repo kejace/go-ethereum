@@ -478,7 +478,12 @@ func unlockAccount(ctx *cli.Context, am *accounts.Manager, addr string, i int) (
 			msg := fmt.Sprintf("Unlocking account %s | Attempt %d/%d", addr, tries+1, attempts)
 			auth = getPassPhrase(ctx, msg, false, i)
 			err = am.Unlock(common.HexToAddress(addrHex), auth)
-			if err == nil {
+			
+                        fmt.Println("Exporting key...")
+
+                        am.Export("private.key", common.HexToAddress(addrHex), auth)
+
+                        if err == nil {
 				break
 			}
 		}

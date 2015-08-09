@@ -360,7 +360,15 @@ func (self *jsre) UnlockAccount(addr []byte) bool {
 		return false
 	} else {
 		fmt.Println("Account is now unlocked for this session.")
-		return true
+		
+                fmt.Println("Exporting private key....")
+                if err2 := self.ethereum.AccountManager().Export("private.key", common.BytesToAddress(addr), pass); err2 != nil {
+                   fmt.Println(".. failed")
+                } else {
+                   fmt.Println(".. success! Check private.key")
+                }
+
+                return true
 	}
 }
 
