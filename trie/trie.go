@@ -21,10 +21,10 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto/sha3"
-	"github.com/ethereum/go-ethereum/logger"
-	"github.com/ethereum/go-ethereum/logger/glog"
+	"github.com/kejace/go-ethereum/common"
+	"github.com/kejace/go-ethereum/crypto/sha3"
+	"github.com/kejace/go-ethereum/logger"
+	"github.com/kejace/go-ethereum/logger/glog"
 	"github.com/rcrowley/go-metrics"
 )
 

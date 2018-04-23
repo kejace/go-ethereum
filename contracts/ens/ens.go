@@ -22,11 +22,11 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/contracts/ens/contract"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/kejace/go-ethereum/accounts/abi/bind"
+	"github.com/kejace/go-ethereum/common"
+	"github.com/kejace/go-ethereum/contracts/ens/contract"
+	"github.com/kejace/go-ethereum/core/types"
+	"github.com/kejace/go-ethereum/crypto"
 )
 
 // swarm domain name registry and resolver

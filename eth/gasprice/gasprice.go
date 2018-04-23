@@ -21,12 +21,12 @@ import (
 	"math/rand"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/logger"
-	"github.com/ethereum/go-ethereum/logger/glog"
+	"github.com/kejace/go-ethereum/core"
+	"github.com/kejace/go-ethereum/core/types"
+	"github.com/kejace/go-ethereum/ethdb"
+	"github.com/kejace/go-ethereum/event"
+	"github.com/kejace/go-ethereum/logger"
+	"github.com/kejace/go-ethereum/logger/glog"
 )
 
 const (

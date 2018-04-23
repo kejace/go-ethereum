@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/kejace/go-ethereum/node"
+	"github.com/kejace/go-ethereum/p2p"
+	"github.com/kejace/go-ethereum/p2p/discover"
+	"github.com/kejace/go-ethereum/rpc"
 )
 
 // SampleService is a trivial network service that can be attached to a node for

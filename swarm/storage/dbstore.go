@@ -28,9 +28,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/logger"
-	"github.com/ethereum/go-ethereum/logger/glog"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/kejace/go-ethereum/logger"
+	"github.com/kejace/go-ethereum/logger/glog"
+	"github.com/kejace/go-ethereum/rlp"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/iterator"
 )

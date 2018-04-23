@@ -26,10 +26,10 @@ import (
 	"math/big"
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/kejace/go-ethereum/common"
+	"github.com/kejace/go-ethereum/crypto"
+	"github.com/kejace/go-ethereum/params"
+	"github.com/kejace/go-ethereum/rlp"
 )
 
 var ErrInvalidSig = errors.New("invalid transaction v, r, s values")

@@ -25,12 +25,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/kejace/go-ethereum/common"
+	"github.com/kejace/go-ethereum/core"
+	"github.com/kejace/go-ethereum/core/types"
+	"github.com/kejace/go-ethereum/core/vm"
+	"github.com/kejace/go-ethereum/event"
+	"github.com/kejace/go-ethereum/rpc"
 	"golang.org/x/net/context"
 )
 

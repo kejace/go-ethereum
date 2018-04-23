@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/ethereum/go-ethereum/logger"
-	"github.com/ethereum/go-ethereum/logger/glog"
-	"github.com/ethereum/go-ethereum/swarm/storage"
+	"github.com/kejace/go-ethereum/logger"
+	"github.com/kejace/go-ethereum/logger/glog"
+	"github.com/kejace/go-ethereum/swarm/storage"
 )
 
 // syncer parameters (global, not peer specific) default values

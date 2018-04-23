@@ -22,12 +22,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/kejace/go-ethereum"
+	"github.com/kejace/go-ethereum/common"
+	"github.com/kejace/go-ethereum/core/types"
+	"github.com/kejace/go-ethereum/core/vm"
+	"github.com/kejace/go-ethereum/rlp"
+	"github.com/kejace/go-ethereum/rpc"
 	"golang.org/x/net/context"
 )
 

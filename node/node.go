@@ -26,14 +26,14 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/logger"
-	"github.com/ethereum/go-ethereum/logger/glog"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/kejace/go-ethereum/accounts"
+	"github.com/kejace/go-ethereum/ethdb"
+	"github.com/kejace/go-ethereum/event"
+	"github.com/kejace/go-ethereum/internal/debug"
+	"github.com/kejace/go-ethereum/logger"
+	"github.com/kejace/go-ethereum/logger/glog"
+	"github.com/kejace/go-ethereum/p2p"
+	"github.com/kejace/go-ethereum/rpc"
 	"github.com/syndtr/goleveldb/leveldb/storage"
 )
 

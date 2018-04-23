@@ -21,12 +21,12 @@ package light
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/kejace/go-ethereum/common"
+	"github.com/kejace/go-ethereum/core"
+	"github.com/kejace/go-ethereum/core/types"
+	"github.com/kejace/go-ethereum/crypto"
+	"github.com/kejace/go-ethereum/ethdb"
+	"github.com/kejace/go-ethereum/rlp"
 	"golang.org/x/net/context"
 )
 

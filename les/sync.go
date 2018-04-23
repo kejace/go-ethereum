@@ -19,9 +19,9 @@ package les
 import (
 	"time"
 
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/light"
+	"github.com/kejace/go-ethereum/core"
+	"github.com/kejace/go-ethereum/eth/downloader"
+	"github.com/kejace/go-ethereum/light"
 	"golang.org/x/net/context"
 )
 

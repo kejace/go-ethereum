@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/httpclient"
+	"github.com/kejace/go-ethereum/common/httpclient"
 )
 
 const port = "3222"

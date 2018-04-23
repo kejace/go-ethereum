@@ -28,8 +28,8 @@ import (
 	"testing/quick"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/kejace/go-ethereum/common"
+	"github.com/kejace/go-ethereum/ethdb"
 )
 
 func init() {

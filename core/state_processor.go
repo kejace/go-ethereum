@@ -19,13 +19,13 @@ package core
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/logger"
-	"github.com/ethereum/go-ethereum/logger/glog"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/kejace/go-ethereum/core/state"
+	"github.com/kejace/go-ethereum/core/types"
+	"github.com/kejace/go-ethereum/core/vm"
+	"github.com/kejace/go-ethereum/crypto"
+	"github.com/kejace/go-ethereum/logger"
+	"github.com/kejace/go-ethereum/logger/glog"
+	"github.com/kejace/go-ethereum/params"
 )
 
 var (

@@ -24,11 +24,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/swarm/network"
-	"github.com/ethereum/go-ethereum/swarm/services/swap"
-	"github.com/ethereum/go-ethereum/swarm/storage"
+	"github.com/kejace/go-ethereum/common"
+	"github.com/kejace/go-ethereum/crypto"
+	"github.com/kejace/go-ethereum/swarm/network"
+	"github.com/kejace/go-ethereum/swarm/services/swap"
+	"github.com/kejace/go-ethereum/swarm/storage"
 )
 
 const (

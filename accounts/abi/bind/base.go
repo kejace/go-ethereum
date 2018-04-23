@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/kejace/go-ethereum"
+	"github.com/kejace/go-ethereum/accounts/abi"
+	"github.com/kejace/go-ethereum/common"
+	"github.com/kejace/go-ethereum/core/types"
+	"github.com/kejace/go-ethereum/crypto"
 	"golang.org/x/net/context"
 )
 

@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/kejace/go-ethereum/rpc"
 	"golang.org/x/net/context"
 )
 

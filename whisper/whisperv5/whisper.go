@@ -25,12 +25,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/logger"
-	"github.com/ethereum/go-ethereum/logger/glog"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/kejace/go-ethereum/common"
+	"github.com/kejace/go-ethereum/crypto"
+	"github.com/kejace/go-ethereum/logger"
+	"github.com/kejace/go-ethereum/logger/glog"
+	"github.com/kejace/go-ethereum/p2p"
+	"github.com/kejace/go-ethereum/rlp"
 	"golang.org/x/crypto/pbkdf2"
 	set "gopkg.in/fatih/set.v0"
 )
