@@ -19,15 +19,15 @@ package backends
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/kejace/go-ethereum/accounts/abi/bind"
+	"github.com/kejace/go-ethereum/common"
+	"github.com/kejace/go-ethereum/core"
+	"github.com/kejace/go-ethereum/core/state"
+	"github.com/kejace/go-ethereum/core/types"
+	"github.com/kejace/go-ethereum/core/vm"
+	"github.com/kejace/go-ethereum/ethdb"
+	"github.com/kejace/go-ethereum/event"
+	"github.com/kejace/go-ethereum/params"
 )
 
 // Default chain configuration which sets homestead phase at block 0 (i.e. no frontier)

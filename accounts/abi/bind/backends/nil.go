@@ -19,9 +19,9 @@ package backends
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
+	"github.com/kejace/go-ethereum/accounts/abi/bind"
+	"github.com/kejace/go-ethereum/common"
+	"github.com/kejace/go-ethereum/core/types"
 )
 
 // This nil assignment ensures compile time that nilBackend implements bind.ContractBackend.

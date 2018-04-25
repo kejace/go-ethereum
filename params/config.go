@@ -19,7 +19,7 @@ package params
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/kejace/go-ethereum/common"
 )
 
 // ChainConfig is the core config which determines the blockchain settings.

@@ -23,14 +23,14 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/console"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/logger/glog"
+	"github.com/kejace/go-ethereum/cmd/utils"
+	"github.com/kejace/go-ethereum/common"
+	"github.com/kejace/go-ethereum/console"
+	"github.com/kejace/go-ethereum/core"
+	"github.com/kejace/go-ethereum/core/state"
+	"github.com/kejace/go-ethereum/core/types"
+	"github.com/kejace/go-ethereum/ethdb"
+	"github.com/kejace/go-ethereum/logger/glog"
 	"gopkg.in/urfave/cli.v1"
 )
 

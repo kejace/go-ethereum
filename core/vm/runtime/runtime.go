@@ -20,11 +20,11 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/kejace/go-ethereum/common"
+	"github.com/kejace/go-ethereum/core/state"
+	"github.com/kejace/go-ethereum/crypto"
+	"github.com/kejace/go-ethereum/ethdb"
+	"github.com/kejace/go-ethereum/params"
 )
 
 // The default, always homestead, rule set for the vm env

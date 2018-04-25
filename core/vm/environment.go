@@ -19,8 +19,8 @@ package vm
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/kejace/go-ethereum/common"
+	"github.com/kejace/go-ethereum/params"
 )
 
 // Environment is an EVM requirement and helper which allows access to outside

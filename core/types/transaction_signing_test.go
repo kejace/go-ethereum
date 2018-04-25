@@ -4,7 +4,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/kejace/go-ethereum/common"
 )
 
 func TestChainId(t *testing.T) {

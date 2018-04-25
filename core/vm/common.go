@@ -20,8 +20,8 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/kejace/go-ethereum/common"
+	"github.com/kejace/go-ethereum/params"
 )
 
 // Type is the VM type accepted by **NewVm**

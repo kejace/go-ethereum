@@ -24,11 +24,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/httpclient"
-	"github.com/ethereum/go-ethereum/common/registrar"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/xeth"
+	"github.com/kejace/go-ethereum/common"
+	"github.com/kejace/go-ethereum/common/httpclient"
+	"github.com/kejace/go-ethereum/common/registrar"
+	"github.com/kejace/go-ethereum/crypto"
+	"github.com/kejace/go-ethereum/xeth"
 	"github.com/robertkrimen/otto"
 )
 

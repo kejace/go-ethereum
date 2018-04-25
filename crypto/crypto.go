@@ -30,11 +30,11 @@ import (
 	"encoding/hex"
 	"errors"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto/ecies"
-	"github.com/ethereum/go-ethereum/crypto/secp256k1"
-	"github.com/ethereum/go-ethereum/crypto/sha3"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/kejace/go-ethereum/common"
+	"github.com/kejace/go-ethereum/crypto/ecies"
+	"github.com/kejace/go-ethereum/crypto/secp256k1"
+	"github.com/kejace/go-ethereum/crypto/sha3"
+	"github.com/kejace/go-ethereum/rlp"
 	"golang.org/x/crypto/ripemd160"
 )
 
